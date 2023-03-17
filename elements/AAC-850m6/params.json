@@ -1,0 +1,53 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 10,
+        "width": 10
+    },
+    "display": "🤌 Number formatter",
+    "fields": {
+        "AAE": {
+            "caption": "Number to be compacted",
+            "doc": "Gimme a number.",
+            "editor": "DynamicValue",
+            "name": "number",
+            "optional": false,
+            "rank": 0,
+            "value": "number"
+        },
+        "AAI": {
+            "caption": "Locale",
+            "default_val": "en-US",
+            "doc": "Give it your locale. e.g.: en-US, de-DE pt-BR",
+            "editor": "DynamicValue",
+            "name": "locale",
+            "optional": false,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAJ": {
+            "caption": "Unit display",
+            "default_val": "short",
+            "doc": "\"long\" (e.g., 16 litres). \"short\" (e.g., 16 l). \"narrow\" (e.g., 16l).",
+            "editor": "Dropdown",
+            "name": "compactDisplay",
+            "optional": false,
+            "options": "long,short,narrow",
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "icon": "ion-ios-ionic-outline",
+    "states": {
+        "AAD": {
+            "caption": "Compacted number",
+            "doc": "The number compacted via Intl.NumberFormatter",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "compacted_number",
+            "value": "text"
+        }
+    }
+}

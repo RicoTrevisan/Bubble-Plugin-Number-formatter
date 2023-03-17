@@ -1,0 +1,13 @@
+{
+    "categories": {
+        "0": "data (things)"
+    },
+    "demo_page": "https://nocode-to-knowcode.bubbleapps.io/version-test/formatter",
+    "description": "This plugin takes a number and spits out a compacted number.\n\nAs seen on TV: https://www.youtube.com/watch?v=FUngCjDzFDo",
+    "image": "//s3.amazonaws.com/appforest_uf/f1673557349564x915893650478546000/Miroodles%20-%20Sticker.png",
+    "license": "open_source",
+    "link": "https://forum.bubble.io/t/number-formatter-plugin/241249",
+    "name": "🤌 Number formatter",
+    "plugin_instructions": "1. slap this baby on the page\n2. feed it some numerical input\n3. take its output (text) and show it to the world",
+    "sa_node_version": 14
+}
