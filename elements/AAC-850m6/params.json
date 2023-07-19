@@ -34,8 +34,37 @@
             "name": "compactDisplay",
             "optional": false,
             "options": "long,short,narrow",
-            "rank": 2,
+            "rank": 3,
             "value": "text"
+        },
+        "AAN": {
+            "caption": "options",
+            "editor": "Label",
+            "name": "options",
+            "rank": 2
+        },
+        "AAO": {
+            "caption": "Advanced options",
+            "default_val": "",
+            "doc": "Gives you direct access to the javascript object, will ignore the Unit display field. Must be a valid JSON. ",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "advanced_options",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAP": {
+            "caption": "example: {     \"style\": \"unit\",     \"unit\": \"kilometer-per-hour\" }",
+            "editor": "Label",
+            "name": "advanced_options_info",
+            "rank": 5
+        },
+        "AAQ": {
+            "caption": "for more info google: mdn Intl.NumberFormat() constructor",
+            "editor": "Label",
+            "name": "link",
+            "rank": 6
         }
     },
     "icon": "ion-ios-ionic-outline",
