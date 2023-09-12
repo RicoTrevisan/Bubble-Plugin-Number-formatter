@@ -1,5 +1,6 @@
 function(instance, properties, context) {
 
+// a comment to test Nova's ssh push integration
     let number = properties.number;
     let locale = properties.locale;
     let compactDisplay = properties.compactDisplay;
